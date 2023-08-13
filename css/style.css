@@ -1,5 +1,29 @@
 body {
   text-align: center;
   font-family: Arial;
-  color: pink;
+  font-size: 16px;
+}
+
+.card {
+  min-width: 400px;
+  font-size: 1.3em;  
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.card-title {
+   background: #e336;
+   padding: .3em;
+}
+
+.card-body {
+   background: #e331;
+   padding: .3em;
+}
+
+.card-body p {
+   line-height: 2em;
 }
